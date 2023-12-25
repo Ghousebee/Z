@@ -1,0 +1,234 @@
+<html lang="en">
+<head>
+   <title>Document</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width-device-width,intial-scale-1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script></head>
+    <body>
+        <style>
+            nav ul li a:hover{
+    font-size:20px;
+    transition:0.6s;
+   
+}
+            .about__container {
+  gap: 2rem;
+}
+
+.about__image{
+  position: relative;
+  isolation: isolate;
+}
+
+.about__image img:hover{
+  max-width: 500px;
+  margin: auto;
+    transition: 2s;
+}
+
+.about__image .about__bg {
+  position: absolute;
+  right: 2rem;
+  top: 3rem;
+  max-width: 250px;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.about__grid {
+  margin-top: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.about__card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about__card span {
+  padding: 11px 19px;
+  font-size: 2rem;
+  color: #f92524;
+  border: 2px solid #f92524;
+  border-radius: 100%;
+}
+
+.about__card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.about__card p {
+  color:#64748b;
+}
+            footer{
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+.footer-links {
+            display: flex;
+            justify-content: space-around;
+            
+        }
+
+        .footer-links a{
+            text-decoration: none;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+        }
+            .fa{
+     font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background: #385998;
+    color: white;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+.fa-google{
+    background: #dd4b39;
+    color: white;
+}
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+}
+             img{
+                width:50%;
+                height:50%;
+            }
+            </style>
+           <nav class="navbar-inverse" style="position: sticky;top:0;z-index:100;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="logo.png" alt="logo"/>FITBODY</a>
+            </div>
+            <div class="navbar-collapse collapse" id="mynavbar">
+                <ul class="nav navbar-nav">
+                     <li><a href="index.html">HOME</a></li>
+                     <li><a href="#">ABOUT</a></li>
+                     <li><a href="Classes.html">CLASSES</a></li>
+                     <li><a href="Trainer.html">TRAINER</a></li>
+                    <li> <a href="Price.html">PRICE</a></li>
+                    <li> <a href="Contact.html">CONTACT US</a></li>
+                    <li> <a href="Login.html">LOGIN/SIGNUP</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
+         <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="about.png" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Our Story</h2>
+        <p class="section__description">
+          Led by our team of expert and motivational instructors, "The Class You
+          Will Get Here" is a high-energy, results-driven session that combines
+          a perfect blend of cardio, strength training, and functional
+          exercises.
+        </p>
+        <div class="about__grid">
+          <div class="about__card">
+            <span>1.</span>
+            <div>
+              <h3>Open Door Policy</h3>
+              <p>
+                We believe in providing unrestricted access to all individuals,
+                regardless of their fitness level, age, or background.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span>2.</span>
+            <div>
+              <h3>Fully Insured</h3>
+              <p>
+                Your peace of mind is our top priority, and our commitment to
+                your safety extends to every aspect of your fitness journey.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span>3.</span>
+            <div>
+              <h3>Personal Trainer</h3>
+              <p>
+                With personalized workout plans tailored to your needs, we will
+                ensure that you get the most out of your gym experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        
+        <footer>
+        <div class="footer-links">
+            <div class="About">
+                <h3>About</h3>
+                <p>"The Class You Will Get Here"<br> is a high-energy, results-driven session <br>that combine strength training, and functional exercises.</p>
+                 <a href="https://www.facebook.com/hussain.peera.50?mibextid=ZbWKwL" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/i/flow/login" class="fa fa-twitter"></a>
+    <a href="https://www.google.co.in/"></a>
+                <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a></div>
+            <div class="Contact Us">
+                <h3>Contact Info</h3>
+                <p> <a href="#"><i class="fa fa-location-dot"></i>34th Street Name,City Name Here,UnitedStates</a></p>
+                <p> <a href="#"><i class="fa fa-phone"></i>+1242 4942 290</a></p>
+                <p>  <a href="#"><i class="fa fa-envelope"></i>ghousebee873@gmail.com</a></p>
+          </div>
+            <div class="Quick Links">
+            <h3>Quick Links</h3>
+                 <a href="#">Home</a><br><br>
+            <a href="#">About</a><br><br>
+            <a href="#">Classes</a><br><br>
+            <a href="#">Price</a><br><br>
+            <a href="#">Contact Us</a><br>
+          </div>
+            <div class="BottomBar">
+                <br><br><br><br><br><br>
+                <p>&copy;@2023 your company. All rights reserved@designed by Ghousebee</p>
+            </div>
+        </div>
+    </footer>
+
+        </meta>
+    </body>
+</html>
+        
+       
